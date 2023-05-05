@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    background-color: black;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.header{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.menu{
+    color: blue;
+    background-color: yellow;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+ .main{
+    background-color: violet;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+
+ }
+
+ .rigth{
+    background-color: teal;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+
+
+ }
+
+
+ .footer{
+    background-color: yellow;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+ }
